@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma de Participação - Detalhes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            margin: 5px 0;
+        }
+        .subtopic {
+            margin-left: 20px;
+        }
+        .diagram {
+            text-align: center;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Plataforma de Participação - Arquitetura, Modelo de Negócio e Jornada do Usuário</h1>
+
+    <h2>1. Arquitetura da Plataforma</h2>
+    <ul>
+        <li><strong>Front-End</strong></li>
+        <ul class="subtopic">
+            <li>Mobile e Web Responsivo</li>
+            <ul class="subtopic">
+                <li>React Native (mobile)</li>
+                <li>React.js (web responsivo)</li>
+            </ul>
+            <li>Interface do Usuário</li>
+            <ul class="subtopic">
+                <li>Design intuitivo e minimalista</li>
+                <li>Integração com geolocalização</li>
+                <li>Sistema de gamificação</li>
+                <li>Visualização da nuvem de palavras em tempo real</li>
+                <li>Galeria de imagens geradas por IA</li>
+            </ul>
+        </ul>
+        <li><strong>Back-End</strong></li>
+        <ul class="subtopic">
+            <li>Tecnologias</li>
+            <ul class="subtopic">
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>Python</li>
+                <li>MongoDB (dados não estruturados)</li>
+                <li>PostgreSQL (dados estruturados)</li>
+            </ul>
+            <li>Módulos Principais</li>
+            <ul class="subtopic">
+                <li>API de integração</li>
+                <li>Análise de dados com Machine Learning</li>
+                <li>Dashboard do Gestor</li>
+                <li>Módulo de Nuvem de Palavras em tempo real</li>
+                <li>Manipulação de imagens geradas por IA</li>
+            </ul>
+            <li>Segurança</li>
+            <ul class="subtopic">
+                <li>Autenticação e autorização (OAuth 2.0, JWT)</li>
+                <li>Criptografia de dados sensíveis</li>
+            </ul>
+        </ul>
+    </ul>
+
+    <div class="diagram">
+        <img src="diagrama_arquitetura.png" alt="Diagrama da Arquitetura da Plataforma" />
+        <p>Figura 1: Diagrama da Arquitetura da Plataforma</p>
+    </div>
+
+    <h2>2. Modelo de Negócio</h2>
+    <ul>
+        <li><strong>Segmentação de Mercado</strong></li>
+        <ul class="subtopic">
+            <li>Público-Alvo</li>
+            <ul class="subtopic">
+                <li>Prefeituras e governos municipais</li>
+                <li>ONGs focadas em urbanismo</li>
+                <li>Empresas de arquitetura e urbanismo</li>
+                <li>Instituições de pesquisa</li>
+            </ul>
+        </ul>
+        <li><strong>Proposta de Valor</strong></li>
+        <ul class="subtopic">
+            <li>Coleta de insights qualitativos diretamente da população</li>
+            <li>Visualização em tempo real de tendências e preocupações</li>
+            <li>Facilidade na extração de dados e criação de relatórios</li>
+            <li>Interação com imagens geradas por IA</li>
+        </ul>
+        <li><strong>Canais</strong></li>
+        <ul class="subtopic">
+            <li>Vendas diretas</li>
+            <li>Parcerias com ONGs e universidades</li>
+            <li>Plataformas digitais (website, webinars, redes sociais)</li>
+        </ul>
+        <li><strong>Fontes de Receita</strong></li>
+        <ul class="subtopic">
+            <li>Licenciamento da plataforma</li>
+            <li>Subscrição mensal ou anual</li>
+            <li>Taxa de configuração e personalização inicial</li>
+            <li>Serviços de consultoria</li>
+        </ul>
+        <li><strong>Estrutura de Custos</strong></li>
+        <ul class="subtopic">
+            <li>Desenvolvimento e manutenção da plataforma</li>
+            <li>Infraestrutura de servidores e armazenamento em nuvem</li>
+            <li>Equipe de suporte ao cliente</li>
+            <li>Marketing e vendas</li>
+        </ul>
+    </ul>
+
+    <div class="diagram">
+        <img src="diagrama_modelo_negocio.png" alt="Diagrama do Modelo de Negócio" />
+        <p>Figura 2: Diagrama do Modelo de Negócio</p>
+    </div>
+
+    <h2>3. Jornada do Usuário</h2>
+    <ul>
+        <li><strong>Passo 1: Descoberta</strong></li>
+        <ul class="subtopic">
+            <li>Campanhas de marketing</li>
+            <li>Parcerias e publicidade</li>
+        </ul>
+        <li><strong>Passo 2: Registro e Primeiro Acesso</strong></li>
+        <ul class="subtopic">
+            <li>Registro simples e rápido</li>
+            <li>Guia interativo para introdução</li>
+        </ul>
+        <li><strong>Passo 3: Exploração e Participação</strong></li>
+        <ul class="subtopic">
+            <li>Exploração da interface</li>
+            <li>Participação em desafios</li>
+            <li>Submissão de dados e sonhos</li>
+        </ul>
+        <li><strong>Passo 4: Engajamento Contínuo</strong></li>
+        <ul class="subtopic">
+            <li>Recebimento de notificações</li>
+            <li>Visualização do impacto de suas contribuições</li>
+        </ul>
+        <li><strong>Passo 5: Recompensas e Fidelização</strong></li>
+        <ul class="subtopic">
+            <li>Recebimento de recompensas</li>
+            <li>Feedback e melhorias contínuas</li>
+        </ul>
+    </ul>
+
+    <div class="diagram">
+        <img src="diagrama_jornada_usuario.png" alt="Diagrama da Jornada do Usuário" />
+        <p>Figura 3: Diagrama da Jornada do Usuário</p>
+    </div>
+
+</body>
+</html>
